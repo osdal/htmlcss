@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 1260px;
+}
+#home-header{
+    background-image: url(/PSDmaket/images/bgr-header.png);
+    height: 100px;
+}

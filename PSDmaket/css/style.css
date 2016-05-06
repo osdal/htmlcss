@@ -11,5 +11,46 @@ table{
 }
 #home-header{
     background-image: url(/PSDmaket/images/bgr-header.png);
-    height: 100px;
+    height: 605px;
+    color: #FFF;
+    text-align: center;
+    
 }
+#home-header button{
+    margin: 50px;
+    background-image: url(/PSDmaket/images/bgr-header.png);
+    color: #FFF;
+    font-size: 14px;
+    font-family: Lato Light;
+    padding: 20px 50px;
+}
+#home-header-firstline:before, #home-header-firstline:after{
+    content: url(/PSDmaket/images/dot.png);
+}
+
+#home-header-firstline:before, #home-header-firstline:after, #home-header-thirdline:before, #home-header-thirdline:after{
+    margin: 20px;
+}
+
+#home-header-firstline, #home-header-thirdline{
+    font-size: 16px;
+    font-family: Lato Light;
+}
+#home-header-secondline{
+    font-size: 50px;
+    /*font-family: serif;*/
+    font-family: Lato Black;
+    margin: 30px;
+}
+#home-header-thirdline:before, #home-header-thirdline:after{
+    content: url(/PSDmaket/images/line.png);
+}
+@font-face {
+    font-family: Lato Black; /* Имя шрифта */
+    src: url(/PSDmaket/fonts/Lato_Black/Lato-Black.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Lato Light; /* Имя шрифта */
+    src: url(/PSDmaket/fonts/Lato_Light/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+}
+   
